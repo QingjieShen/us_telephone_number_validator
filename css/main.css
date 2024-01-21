@@ -88,3 +88,22 @@ h1 {
     align-items: center;
     justify-content: space-between;
 }
+
+.results-div {
+    margin-top: 15px;
+    font-size: 1.4rem;
+    padding: auto 10px;
+}
+
+.results-div p {
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+.results-div .valid {
+    color: rgb(31, 137, 31);
+}
+
+.results-div .invalid {
+    color: rgb(74, 40, 40);
+}
