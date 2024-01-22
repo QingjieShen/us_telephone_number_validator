@@ -14,7 +14,7 @@ const resultOutput = () => {
         alert("Please provide a phone number");
         return;
     }
-    testResult = isValid(userInput.value) ?  `<p class="valid">Valid US number: ${userInput.value}</p>` : `<p class="invalid">Invalid US number: ${userInput.value}</p>`;
+    const testResult = isValid(userInput.value) ?  `<p class="valid">Valid US number: ${userInput.value}</p>` : `<p class="invalid">Invalid US number: ${userInput.value}</p>`;
     result.innerHTML += testResult;
     userInput.value = "";
 }
