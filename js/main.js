@@ -3,7 +3,7 @@ const result = document.getElementById("results-div");
 const checkBtn = document.getElementById("check-btn");
 const clearBtn = document.getElementById("clear-btn");
 
-const countryCodeRegex = /1\s?[\s-]?[(]?(\d\d\d)[)-]?[\s-]?(\d\d\d)[\s-]?(\d\d\d\d)/;
+const countryCodeRegex = /^1\s?[\s-]?[(]?(\d\d\d)[)-]?[\s-]?(\d\d\d)[\s-]?(\d\d\d\d)$/;
 const nromalNumberRegex = /^[\s-]?[(]?(\d\d\d)[)-]?[\s-]?(\d\d\d)[\s-]?(\d\d\d\d)$/;
 
 const regexs = [countryCodeRegex, nromalNumberRegex];
